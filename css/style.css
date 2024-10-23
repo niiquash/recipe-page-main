@@ -18,8 +18,14 @@ hr {
   border-bottom: 1px solid rgba(128, 128, 128, 0.253);
 }
 
-li {
+ul,
+ol {
   list-style-position: inside;
+}
+
+li {
+  line-height: 1.4rem;
+  margin-bottom: 0.8rem;
 }
 
 /* VARIABLES */
