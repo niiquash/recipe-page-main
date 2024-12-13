@@ -102,3 +102,46 @@ main {
 .section__bold {
   font-weight: bold;
 }
+
+.table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.table tr:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.table td {
+  padding: 1rem 2rem;
+}
+
+.amount {
+  font-weight: bold;
+  color: var(--HEADER-COLOR);
+}
+
+@media screen and (min-width: 701px) {
+  html {
+    background-color: rgb(250, 233, 219);
+    font-size: 14px;
+  }
+
+  body {
+    max-width: 600px;
+    margin: 5rem auto;
+    background-color: white;
+    border-radius: 1.5rem;
+  }
+
+  .hero__container {
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+
+  img {
+    border-radius: 8px;
+  }
+}
